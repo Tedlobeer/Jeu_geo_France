@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+
+#choix_initial {
+    margin: 2% 39% 2% 39%;
+    font-size: 1.4em;
+}
+
+.disable {
+    display: none;
+}
+
+.enable {
+    display: flex;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.indication {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#affichage_departement {
+    text-align: center;
+}
