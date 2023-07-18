@@ -1,3 +1,5 @@
+//affichage du menu france ou monde au click
+
 let boutonNavFrance = document.getElementById("mode_france");
 let boutonNavMonde = document.getElementById("mode_monde");
 let navFrance = document.getElementById("nav_france");
@@ -16,6 +18,4 @@ boutonNavMonde.addEventListener("click", ()=>{
     navFrance.classList.add("disable");
     navMonde.classList.remove("disable");
 });
-
-//affichage du nombre de départements dans l'input range
 

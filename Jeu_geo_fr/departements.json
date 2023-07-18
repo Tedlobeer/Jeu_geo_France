@@ -1,807 +1,191 @@
 [
     {
-        "numero": "1",
+        "numero": "01",
         "departement": "Ain",
-        "ancienne region": "Auvergne",
+        "ancienne region": "Rhône-Alpes",
         "nouvelle region": "Auvergne-Rhône-Alpes",
         "prefecture": "Bourg-en-Bresse"
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-{
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-{
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
-    {
-        "numero": "",
-        "departement": "",
-        "ancienne region": "",
-        "nouvelle region": "",
-        "prefecture": ""
-    }
+    },
+    {
+        "numero": "02",
+        "departement": "Aisne",
+        "ancienne region": "Picardie",
+        "nouvelle region": "Haut-de-France",
+        "prefecture": "Laon"
+    },
+    {
+        "numero": "03",
+        "departement": "Allier",
+        "ancienne region": "Auvergne",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Moulins"
+    },
+    {
+        "numero": "04",
+        "departement": "Alpes-de-Haute-Provence",
+        "ancienne region": "PACA",
+        "nouvelle region": "PACA",
+        "prefecture": "Digne-les-Bains"
+    },
+    {
+        "numero": "05",
+        "departement": "Hautes-Alpes",
+        "ancienne region": "Rhône-Alpes",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Gap"
+    },
+    {
+        "numero": "06",
+        "departement": "Alpes-Maritimes",
+        "ancienne region": "PACA",
+        "nouvelle region": "PACA",
+        "prefecture": "Nice"
+    },
+    {
+        "numero": "07",
+        "departement": "Ardèche",
+        "ancienne region": "Rhône-Alpes",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Privas"
+    },
+    {
+        "numero": "08",
+        "departement": "Ardennes",
+        "ancienne region": "Champagne-Ardennes",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Charleville-Mézières"
+    },
+    {
+        "numero": "09",
+        "departement": "Ariège",
+        "ancienne region": "Midi-Pyrénées",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Foix"
+    },
+    {
+        "numero": "10",
+        "departement": "Aube",
+        "ancienne region": "Champagne-Ardennes",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Troyes"
+    },
+    {
+        "numero": "11",
+        "departement": "Aude",
+        "ancienne region": "Lanquedoc-Roussilon",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Carcassonne"
+    },
+    {
+        "numero": "12",
+        "departement": "Aveyron",
+        "ancienne region": "Midi-Pyrénées",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Rodez"
+    },
+    {
+        "numero": "13",
+        "departement": "Bouches-du-Rhône",
+        "ancienne region": "PACA",
+        "nouvelle region": "PACA",
+        "prefecture": "Marseille"
+    },
+    {
+        "numero": "14",
+        "departement": "Calvados",
+        "ancienne region": "Basse-Normandie",
+        "nouvelle region": "Normandie",
+        "prefecture": "Caen"
+    },
+    {
+        "numero": "15",
+        "departement": "Cantal",
+        "ancienne region": "Auvergne",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Aurillac"
+    },
+    {
+        "numero": "16",
+        "departement": "Charente",
+        "ancienne region": "Poitou-Charentes",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Angoulême"
+    },
+    {
+        "numero": "17",
+        "departement": "Charente-Maritime",
+        "ancienne region": "Poitou-Charentes",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "La Rochelle"
+    },
+    {
+        "numero": "18",
+        "departement": "Cher",
+        "ancienne region": "Centre",
+        "nouvelle region": "Centre-Val de Loire",
+        "prefecture": "Bourges"
+    },
+    {
+        "numero": "19",
+        "departement": "Corrèze",
+        "ancienne region": "Limousin",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Tulle"
+    },
+    {
+        "numero": "2A",
+        "departement": "Corse-du-Sud",
+        "ancienne region": "Corse",
+        "nouvelle region": "Corse",
+        "prefecture": "Ajaccio"
+    },
+    {
+        "numero": "2B",
+        "departement": "Haute-Corse",
+        "ancienne region": "Corse",
+        "nouvelle region": "Corse",
+        "prefecture": "Bastia"
+    },
+    {
+        "numero": "21",
+        "departement": "Côte-d'Or",
+        "ancienne region": "Bourgogne",
+        "nouvelle region": "Bourgogne-Franche-Comté",
+        "prefecture": "Dijon"
+    },
+    {
+        "numero": "22",
+        "departement": "Côtes-d'Armor",
+        "ancienne region": "Bretagne",
+        "nouvelle region": "Bretagne",
+        "prefecture": "Saint-Brieuc"
+    },
+    {
+        "numero": "23",
+        "departement": "Creuse",
+        "ancienne region": "Limousin",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Guéret"
+    },
+    {
+        "numero": "24",
+        "departement": "Dordogne",
+        "ancienne region": "Aquitaine",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Périgueux"
+    },
+    {
+    "numero": "25",
+    "departement": "Doubs",
+    "ancienne region": "Franche-Comté",
+    "nouvelle region": "Bourgogne-Franche-Comté",
+    "prefecture": "Besançon"
+    },
+    {
+    "numero": "",
+    "departement": "",
+    "ancienne region": "",
+    "nouvelle region": "",
+    "prefecture": ""
+    },
 ]

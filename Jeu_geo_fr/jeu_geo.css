@@ -23,6 +23,28 @@ h1 {
     font-size: 1.2em;
 }
 
-#affichage_departement {
+.choix_departement {
     text-align: center;
+    margin-top: 20%;
+    font-size: 1.3em;
+}
+
+#onglet_nav_dep {
+    font-size: 1.5em;
+}
+
+#valider {
+    margin-top: 1%;
+    margin-left: 49%;
+}
+
+.nombreDeQuestions {
+    text-align: center;
+    margin-top: 20%;
+}
+
+#range_dep {
+    width: 30%;
+    text-align: center;
+    margin: 0 1% 0 35%;
 }

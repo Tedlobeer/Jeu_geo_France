@@ -6,15 +6,12 @@
     <title>Quizz géo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="jeu_geo.css" rel="stylesheet">
-    <script src="jeu_geo.js" defer></script>
+    <script src="prefecture.js" defer></script>
   </head>
   <body>
     <p class="nombreDeQuestions">Combien voulez-vous en deviner ?</p>
-    <input type="range" id="range_dep" name="dep" min="0" max="101" value="10" step="1">
-    <output>--</output>
-    <label for="dep">Départements</label>
-    <p class="affichage_departement"></p>
-    <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <input type="range" id="range_dep" name="dep" min="0" max="101" value="10" step="1"><span id="valeur_curseur">10 </span><label for="dep">départements</label>
+    <br>
+    <button id="valider">Valider</button> 
   </body>
 </html>
