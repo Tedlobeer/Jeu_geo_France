@@ -10,7 +10,7 @@
         "numero": "02",
         "departement": "Aisne",
         "ancienne region": "Picardie",
-        "nouvelle region": "Haut-de-France",
+        "nouvelle region": "Hauts-de-France",
         "prefecture": "Laon"
     },
     {
@@ -175,10 +175,535 @@
         "prefecture": "Périgueux"
     },
     {
-    "numero": "25",
-    "departement": "Doubs",
-    "ancienne region": "Franche-Comté",
-    "nouvelle region": "Bourgogne-Franche-Comté",
-    "prefecture": "Besançon"
+        "numero": "25",
+        "departement": "Doubs",
+        "ancienne region": "Franche-Comté",
+        "nouvelle region": "Bourgogne-Franche-Comté",
+        "prefecture": "Besançon"
+    },
+    {
+        "numero": "26",
+        "departement": "Drôme",
+        "ancienne region": "Rhône-Alpes",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Valence"
+    },
+    {
+        "numero": "27",
+        "departement": "Eure",
+        "ancienne region": "Haute-Normandie",
+        "nouvelle region": "Normandie",
+        "prefecture": "Evreux"
+    },
+    {
+        "numero": "28",
+        "departement": "Eure-et-Loir",
+        "ancienne region": "Basse-Normandie",
+        "nouvelle region": "Normandie",
+        "prefecture": "Chartres"
+    },
+    {
+        "numero": "29",
+        "departement": "Finistère",
+        "ancienne region": "Bretagne",
+        "nouvelle region": "Bretagne",
+        "prefecture": "Quimper"
+    },
+    {
+        "numero": "30",
+        "departement": "Gard",
+        "ancienne region": "Lanquedoc-Roussilon",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Nîmes"
+    },
+    {
+        "numero": "31",
+        "departement": "Haute-Garonne",
+        "ancienne region": "Midi-Pyrénées",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Toulouse"
+    },
+    {
+        "numero": "32",
+        "departement": "Gers",
+        "ancienne region": "Midi-Pyrénées",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Auch"
+    },
+    {
+        "numero": "33",
+        "departement": "Gironde",
+        "ancienne region": "Aquitaine",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Bordeaux"
+    },
+    {
+        "numero": "34",
+        "departement": "Hérault",
+        "ancienne region": "Lanquedoc-Roussilon",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Montpellier"
+    },
+    {
+        "numero": "35",
+        "departement": "Ille-et-Vilaine",
+        "ancienne region": "Bretagne",
+        "nouvelle region": "Bretagne",
+        "prefecture": "Rennes"
+    },
+    {
+        "numero": "36",
+        "departement": "Indre",
+        "ancienne region": "Centre",
+        "nouvelle region": "Centre-Val-de-Loire",
+        "prefecture": "Châteauroux"
+    },
+    {
+        "numero": "37",
+        "departement": "Indre-et-Loire",
+        "ancienne region": "Centre",
+        "nouvelle region": "Centre-Val de Loire",
+        "prefecture": "Tours"
+    },
+    {
+        "numero": "38",
+        "departement": "Isère",
+        "ancienne region": "Rhône-Alpes",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Grenoble"
+    },
+    {
+        "numero": "39",
+        "departement": "Jura",
+        "ancienne region": "Franche-Comté",
+        "nouvelle region": "Bourgogne-Franche-Comté",
+        "prefecture": "Lons-le-Saunier"
+    },
+    {
+        "numero": "40",
+        "departement": "Landes",
+        "ancienne region": "Aquitaine",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Mont-de-Marsan"
+    },
+    {
+        "numero": "41",
+        "departement": "Loir-et-Cher",
+        "ancienne region": "Centre",
+        "nouvelle region": "Centre-Val de Loire",
+        "prefecture": "Blois"
+    },
+    {
+        "numero": "42",
+        "departement": "Loire",
+        "ancienne region": "Rhône-Alpes",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Saint-Etienne"
+    },
+    {
+        "numero": "43",
+        "departement": "Haute-Loire",
+        "ancienne region": "Auvergne",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Le Puy-en-Velay"
+    },
+    {
+        "numero": "44",
+        "departement": "Loire-Atlantique",
+        "ancienne region": "Pays de la Loire",
+        "nouvelle region": "Pays de la Loire",
+        "prefecture": "Nantes"
+    },
+    {
+        "numero": "45",
+        "departement": "Loiret",
+        "ancienne region": "Centre",
+        "nouvelle region": "Centre-Val de Loire",
+        "prefecture": "Orléans"
+    },
+    {
+        "numero": "46",
+        "departement": "Lot",
+        "ancienne region": "Midi-Pyrénées",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Cahors"
+    },
+    {
+        "numero": "47",
+        "departement": "Lot-et-Garonne",
+        "ancienne region": "Midi-Pyrénées",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Agen"
+    },
+    {
+        "numero": "48",
+        "departement": "Lozère",
+        "ancienne region": "Lanquedoc-Roussilon",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Mende"
+    },
+    {
+        "numero": "49",
+        "departement": "Maine-et-Loire",
+        "ancienne region": "Pays de la Loire",
+        "nouvelle region": "Pays de la Loire",
+        "prefecture": "Angers"
+    },
+    {
+        "numero": "50",
+        "departement": "Manche",
+        "ancienne region": "Basse-Normandie",
+        "nouvelle region": "Normandie",
+        "prefecture": "Saint-Lô"
+    },
+    {
+        "numero": "51",
+        "departement": "Marne",
+        "ancienne region": "Champagne-Ardennes",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Châlons-en-Champagne"
+    },
+    {
+        "numero": "52",
+        "departement": "Haute-Marne",
+        "ancienne region": "Champagne-Ardennes",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Chaumont"
+    },
+    {
+        "numero": "53",
+        "departement": "Mayenne",
+        "ancienne region": "Pays de la Loire",
+        "nouvelle region": "Pays de la Loire",
+        "prefecture": "Laval"
+    },
+    {
+        "numero": "54",
+        "departement": "Meurthe-et-Moselle",
+        "ancienne region": "Lorraine",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Nancy"
+    },
+    {
+        "numero": "55",
+        "departement": "Meuse",
+        "ancienne region": "Lorraine",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Bar-le-Duc"
+    },
+    {
+        "numero": "56",
+        "departement": "Morbihan",
+        "ancienne region": "Bretagne",
+        "nouvelle region": "Bretagne",
+        "prefecture": "Vannes"
+    },
+    {
+        "numero": "57",
+        "departement": "Moselle",
+        "ancienne region": "Lorraine",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Metz"
+    },
+    {
+        "numero": "58",
+        "departement": "Nièvre",
+        "ancienne region": "Bourgogne",
+        "nouvelle region": "Bourgogne-Franche-Comté",
+        "prefecture": "Nevers"
+    },
+    {
+        "numero": "59",
+        "departement": "Nord",
+        "ancienne region": "Nord-Pas-de-Calais",
+        "nouvelle region": "Hauts-de-France",
+        "prefecture": "Lille"
+    },
+    {
+        "numero": "60",
+        "departement": "Oise",
+        "ancienne region": "Picardie",
+        "nouvelle region": "Hauts-de-France",
+        "prefecture": "Beauvais"
+    },
+    {
+        "numero": "61",
+        "departement": "Orne",
+        "ancienne region": "Basse-Normandie",
+        "nouvelle region": "Normandie",
+        "prefecture": "Alençon"
+    },
+    {
+        "numero": "62",
+        "departement": "Pas-de-Calais",
+        "ancienne region": "Nord-Pas-de-Calais",
+        "nouvelle region": "Hauts-de-France",
+        "prefecture": "Arras"
+    },
+    {
+        "numero": "63",
+        "departement": "Puy-de-Dôme",
+        "ancienne region": "Auvergne",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Clermont-Ferrand"
+    },
+    {
+        "numero": "64",
+        "departement": "Pyrénées-Atlantique",
+        "ancienne region": "Aquitaine",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Pau"
+    },
+    {
+        "numero": "65",
+        "departement": "Hautes-Pyrénées",
+        "ancienne region": "Midi-Pyrénées",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Tarbes"
+    },
+    {
+        "numero": "66",
+        "departement": "Pyrénées-Orientales",
+        "ancienne region": "Lanquedoc-Roussilon",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Perpignan"
+    },
+    {
+        "numero": "67",
+        "departement": "Bas-Rhin",
+        "ancienne region": "Alsace",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Strasbourg"
+    },
+    {
+        "numero": "68",
+        "departement": "Haut-Rhin",
+        "ancienne region": "Alsace",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Colmar"
+    },
+    {
+        "numero": "69",
+        "departement": "Rhône",
+        "ancienne region": "Rhône-Alpes",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Lyon"
+    },
+    {
+        "numero": "70",
+        "departement": "Haute-Saône",
+        "ancienne region": "Franche-Comté",
+        "nouvelle region": "Bourgogne-Franche-Comté",
+        "prefecture": "Vesoul"
+    },
+    {
+        "numero": "71",
+        "departement": "Saône-et-Loire",
+        "ancienne region": "Bourgogne",
+        "nouvelle region": "Bourgogne-Franche-Comté",
+        "prefecture": "Mâcon"
+    },
+    {
+        "numero": "72",
+        "departement": "Sarthe",
+        "ancienne region": "Pays de la Loire",
+        "nouvelle region": "Pays de la Loire",
+        "prefecture": "Le Mans"
+    },
+    {
+        "numero": "73",
+        "departement": "Savoie",
+        "ancienne region": "Rhône-Alpes",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Chambéry"
+    },
+    {
+        "numero": "74",
+        "departement": "Haute-Savoie",
+        "ancienne region": "Rhône-Alpes",
+        "nouvelle region": "Auvergne-Rhône-Alpes",
+        "prefecture": "Annecy"
+    },
+    {
+        "numero": "75",
+        "departement": "Paris",
+        "ancienne region": "Ile-de-France",
+        "nouvelle region": "Ile-de-France",
+        "prefecture": "Paris"
+    },
+    {
+        "numero": "76",
+        "departement": "Seine-Maritime",
+        "ancienne region": "Haute-Normandie",
+        "nouvelle region": "Normandie",
+        "prefecture": "Rouen"
+    },
+    {
+        "numero": "77",
+        "departement": "Seine-et-Marne",
+        "ancienne region": "Ile-de-France",
+        "nouvelle region": "Ile-de-France",
+        "prefecture": "Melun"
+    },
+    {
+        "numero": "78",
+        "departement": "Yvelines",
+        "ancienne region": "Ile-de-France",
+        "nouvelle region": "Ile-de-France",
+        "prefecture": "Versailles"
+    },
+    {
+        "numero": "79",
+        "departement": "Deux-Sèvres",
+        "ancienne region": "Poitou-Charentes",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Niort"
+    },
+    {
+        "numero": "80",
+        "departement": "Somme",
+        "ancienne region": "Picardie",
+        "nouvelle region": "Hauts-de-France",
+        "prefecture": "Amiens"
+    },
+    {
+        "numero": "81",
+        "departement": "Tarn",
+        "ancienne region": "Midi-Pyrénées",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Albi"
+    },
+    {
+        "numero": "82",
+        "departement": "Tarn-et-Garonne",
+        "ancienne region": "Midi-Pyrénées",
+        "nouvelle region": "Occitanie",
+        "prefecture": "Montauban"
+    },
+    {
+        "numero": "83",
+        "departement": "Var",
+        "ancienne region": "PACA",
+        "nouvelle region": "PACA",
+        "prefecture": "Toulon"
+    },
+    {
+        "numero": "84",
+        "departement": "Vaucluse",
+        "ancienne region": "PACA",
+        "nouvelle region": "PACA",
+        "prefecture": "Avignon"
+    },
+    {
+        "numero": "85",
+        "departement": "Vendée",
+        "ancienne region": "Pays de la Loire",
+        "nouvelle region": "Pays de la Loire",
+        "prefecture": "La Roche-sur-Yon"
+    },
+    {
+        "numero": "86",
+        "departement": "Vienne",
+        "ancienne region": "Poitou-Charentes",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Poitiers"
+    },
+    {
+        "numero": "87",
+        "departement": "Haute-Vienne",
+        "ancienne region": "Limousin",
+        "nouvelle region": "Nouvelle-Aquitaine",
+        "prefecture": "Limoges"
+    },
+    {
+        "numero": "88",
+        "departement": "Vosges",
+        "ancienne region": "Lorraine",
+        "nouvelle region": "Grand Est",
+        "prefecture": "Epinal"
+    },
+    {
+        "numero": "89",
+        "departement": "Yonne",
+        "ancienne region": "Bourgogne",
+        "nouvelle region": "Bourgogne-Franche-Comté",
+        "prefecture": "Auxerre"
+    },
+    {
+        "numero": "90",
+        "departement": "Territoire de Belfort",
+        "ancienne region": "Franche-Comté",
+        "nouvelle region": "Bourgogne-Franche-Comté",
+        "prefecture": "Belfort"
+    },
+    {
+        "numero": "91",
+        "departement": "Essone",
+        "ancienne region": "Ile-de-France",
+        "nouvelle region": "Ile-de-France",
+        "prefecture": "Evry"
+    },
+    {
+        "numero": "92",
+        "departement": "Hauts-de-Seine",
+        "ancienne region": "Ile-de-France",
+        "nouvelle region": "Ile-de-France",
+        "prefecture": "Nanterre"
+    },
+    {
+        "numero": "93",
+        "departement": "Seine-Saint-Denis",
+        "ancienne region": "Ile-de-France",
+        "nouvelle region": "Ile-de-France",
+        "prefecture": "Bobigny"
+    },
+    {
+        "numero": "94",
+        "departement": "Val-de-Marne",
+        "ancienne region": "Ile-de-France",
+        "nouvelle region": "Ile-de-France",
+        "prefecture": "Créteil"
+    },
+    {
+        "numero": "95",
+        "departement": "Val-d'Oise",
+        "ancienne region": "Ile-de-France",
+        "nouvelle region": "Ile-de-France",
+        "prefecture": "Pontoise"
+    },
+    {
+        "numero": "971",
+        "departement": "Guadeloupe",
+        "ancienne region": "Guadeloupe",
+        "nouvelle region": "GUadeloupe",
+        "prefecture": "Basse-Terre"
+    },
+    {
+        "numero": "972",
+        "departement": "Martinique",
+        "ancienne region": "Martinique",
+        "nouvelle region": "Martinique",
+        "prefecture": "Fort-de-France"
+    },
+    {
+        "numero": "973",
+        "departement": "Guyane",
+        "ancienne region": "Guyane",
+        "nouvelle region": "Guyane",
+        "prefecture": "Cayenne"
+    },
+    {
+        "numero": "974",
+        "departement": "La Réunion",
+        "ancienne region": "La Réunion",
+        "nouvelle region": "La Réunion",
+        "prefecture": "Saint-Denis"
+    },
+    {
+        "numero": "976",
+        "departement": "Mayotte",
+        "ancienne region": "Mayotte",
+        "nouvelle region": "Mayotte",
+        "prefecture": "Dzaoudzi"
     }
 ]
