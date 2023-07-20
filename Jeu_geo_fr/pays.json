@@ -1,0 +1,1196 @@
+[
+    {
+        "pays": "Afghanistan",
+        "continent": "Asie",
+        "capitale": "Kaboul",
+        "drapeau": ""
+    },
+    {
+        "pays": "Afrique du Sud",
+        "continent": "Afrique",
+        "capitale": "Pretoria",
+        "drapeau": ""
+    },
+    {
+        "pays": "Albanie",
+        "continent": "Europe",
+        "capitale": "Tirana",
+        "drapeau": ""
+    },
+    {
+        "pays": "Algérie",
+        "continent": "Afrique",
+        "capitale": "Alger",
+        "drapeau": ""
+    },
+    {
+        "pays": "Allemagne",
+        "continent": "Europe",
+        "capitale": "Berlin",
+        "drapeau": ""
+    },
+    {
+        "pays": "Andorre",
+        "continent": "Europe",
+        "capitale": "Andorre-la-Vieille",
+        "drapeau": ""
+    },
+    {
+        "pays": "Angola",
+        "continent": "Afrique",
+        "capitale": "Luanda",
+        "drapeau": ""
+    },
+    {
+        "pays": "Antigua-et-Barbuda",
+        "continent": "Amérique",
+        "capitale": "Saint John's",
+        "drapeau": ""
+    },
+    {
+        "pays": "Arabie Saoudite",
+        "continent": "Asie",
+        "capitale": "Riyad",
+        "drapeau": ""
+    },
+    {
+        "pays": "Argentine",
+        "continent": "Amérique",
+        "capitale": "Buenos Aires",
+        "drapeau": ""
+    },
+    {
+        "pays": "Arménie",
+        "continent": "Asie",
+        "capitale": "Erevan",
+        "drapeau": ""
+    },
+    {
+        "pays": "Australie",
+        "continent": "Océanie",
+        "capitale": "Canberra",
+        "drapeau": ""
+    },
+    {
+        "pays": "Autriche",
+        "continent": "Europe",
+        "capitale": "Vienne",
+        "drapeau": ""
+    },
+    {
+        "pays": "Azerbaïdjan",
+        "continent": "Asie",
+        "capitale": "Bakou",
+        "drapeau": ""
+    },
+    {
+        "pays": "Bahamas",
+        "continent": "Amérique",
+        "capitale": "Nassau",
+        "drapeau": ""
+    },
+    {
+        "pays": "Bahreïn",
+        "continent": "Asie",
+        "capitale": "Manama",
+        "drapeau": ""
+    },
+    {
+        "pays": "Bangladesh",
+        "continent": "Asie",
+        "capitale": "Dacca",
+        "drapeau": ""
+    },
+    {
+        "pays": "Barbade",
+        "continent": "Amérique",
+        "capitale": "Bridgetown",
+        "drapeau": ""
+    },
+    {
+        "pays": "Belgique",
+        "continent": "Europe",
+        "capitale": "Bruxelles",
+        "drapeau": ""
+    },
+    {
+        "pays": "Belize",
+        "continent": "Amérique",
+        "capitale": "Belmopan",
+        "drapeau": ""
+    },
+    {
+        "pays": "Bénin",
+        "continent": "Afrique",
+        "capitale": "Porto-Novo",
+        "drapeau": ""
+    },
+    {
+        "pays": "Bhoutan",
+        "continent": "Asie",
+        "capitale": "Thimbu",
+        "drapeau": ""
+    },
+    {
+        "pays": "Biélorussie",
+        "continent": "Europe",
+        "capitale": "Minsk",
+        "drapeau": ""
+    },
+    {
+        "pays": "Birmanie",
+        "continent": "Asie",
+        "capitale": "Naypyidaw",
+        "drapeau": ""
+    },
+    {
+        "pays": "Bolivie",
+        "continent": "Amérique",
+        "capitale": "Sucre",
+        "drapeau": ""
+    },
+    {
+        "pays": "Bosnie-Herzégovine",
+        "continent": "Europe",
+        "capitale": "Sarajevo",
+        "drapeau": ""
+    },
+    {
+        "pays": "Botswana",
+        "continent": "Afrique",
+        "capitale": "Gaborone",
+        "drapeau": ""
+    },
+    {
+        "pays": "Brésil",
+        "continent": "Amérique",
+        "capitale": "Brasilia",
+        "drapeau": ""
+    },
+    {
+        "pays": "Brunei",
+        "continent": "Asie",
+        "capitale": "Bandar Seri Begawan",
+        "drapeau": ""
+    },
+    {
+        "pays": "Bulgarie",
+        "continent": "Europe",
+        "capitale": "Sofia",
+        "drapeau": ""
+    },
+    {
+        "pays": "Burkina Faso",
+        "continent": "Afrique",
+        "capitale": "Ouagadougou",
+        "drapeau": ""
+    },
+    {
+        "pays": "Burundi",
+        "continent": "Afrique",
+        "capitale": "Bujumbura",
+        "drapeau": ""
+    },
+    {
+        "pays": "Cambodge",
+        "continent": "Asie",
+        "capitale": "Phnom Penh",
+        "drapeau": ""
+    },
+    {
+        "pays": "Cameroun",
+        "continent": "Afrique",
+        "capitale": "Yaoundé",
+        "drapeau": ""
+    },
+    {
+        "pays": "Canada",
+        "continent": "Amérique",
+        "capitale": "Ottawa",
+        "drapeau": ""
+    },
+    {
+        "pays": "Cap-Vert",
+        "continent": "Afrique",
+        "capitale": "Praia",
+        "drapeau": ""
+    },
+    {
+        "pays": "Chili",
+        "continent": "Amérique",
+        "capitale": "Santiago",
+        "drapeau": ""
+    },
+    {
+        "pays": "Chine",
+        "continent": "Asie",
+        "capitale": "Pékin",
+        "drapeau": ""
+    },
+    {
+        "pays": "Chypre",
+        "continent": "Europe",
+        "capitale": "Nicosie",
+        "drapeau": ""
+    },
+    {
+        "pays": "Colombie",
+        "continent": "Amérique",
+        "capitale": "Bogota",
+        "drapeau": ""
+    },
+    {
+        "pays": "Comores",
+        "continent": "Afrique",
+        "capitale": "Moroni",
+        "drapeau": ""
+    },
+    {
+        "pays": "République du Congo",
+        "continent": "Afrique",
+        "capitale": "Brazzaville",
+        "drapeau": ""
+    },
+    {
+        "pays": "Corée du Nord",
+        "continent": "Asie",
+        "capitale": "Pyongyang",
+        "drapeau": ""
+    },
+    {
+        "pays": "Corée du Sud",
+        "continent": "Asie",
+        "capitale": "Séoul",
+        "drapeau": ""
+    },
+    {
+        "pays": "Costa Rica",
+        "continent": "Amérique",
+        "capitale": "San José",
+        "drapeau": ""
+    },
+    {
+        "pays": "Côte d'Ivoire",
+        "continent": "Afrique",
+        "capitale": "Yamoussoukro",
+        "drapeau": ""
+    },
+    {
+        "pays": "Croatie",
+        "continent": "Europe",
+        "capitale": "Zagreb",
+        "drapeau": ""
+    },
+    {
+        "pays": "Cuba",
+        "continent": "Amérique",
+        "capitale": "La Havane",
+        "drapeau": ""
+    },
+    {
+        "pays": "Danemark",
+        "continent": "Europe",
+        "capitale": "Copenhague",
+        "drapeau": ""
+    },
+    {
+        "pays": "Djibouti",
+        "continent": "Afrique",
+        "capitale": "Djibouti",
+        "drapeau": ""
+    },
+    {
+        "pays": "Dominique",
+        "continent": "Amérique",
+        "capitale": "Roseau",
+        "drapeau": ""
+    },
+    {
+        "pays": "Egypte",
+        "continent": "Afrique",
+        "capitale": "Le Caire",
+        "drapeau": ""
+    },
+    {
+        "pays": "Emirats Arabes Unis",
+        "continent": "Asie",
+        "capitale": "Abu Dhabi",
+        "drapeau": ""
+    },
+    {
+        "pays": "Equateur",
+        "continent": "Amérique",
+        "capitale": "Quito",
+        "drapeau": ""
+    },
+    {
+        "pays": "Erythrée",
+        "continent": "Afrique",
+        "capitale": "Asmara",
+        "drapeau": ""
+    },
+    {
+        "pays": "Espagne",
+        "continent": "Europe",
+        "capitale": "Madrid",
+        "drapeau": ""
+    },
+    {
+        "pays": "Estonie",
+        "continent": "Europe",
+        "capitale": "Tallinn",
+        "drapeau": ""
+    },
+    {
+        "pays": "Eswatini",
+        "continent": "Afrique",
+        "capitale": "Mbabane",
+        "drapeau": ""
+    },
+    {
+        "pays": "Etats-Unis",
+        "continent": "Amérique",
+        "capitale": "Washington ",
+        "drapeau": ""
+    },
+    {
+        "pays": "Ethiopie",
+        "continent": "Afrique",
+        "capitale": "Addis-Abeba",
+        "drapeau": ""
+    },
+    {
+        "pays": "Fidji",
+        "continent": "Océanie",
+        "capitale": "Suva",
+        "drapeau": ""
+    },
+    {
+        "pays": "Finlande",
+        "continent": "Europe",
+        "capitale": "Helsinki",
+        "drapeau": ""
+    },
+    {
+        "pays": "France",
+        "continent": "Europe",
+        "capitale": "Paris",
+        "drapeau": ""
+    },
+    {
+        "pays": "Gabon",
+        "continent": "Afrique",
+        "capitale": "Libreville",
+        "drapeau": ""
+    },
+    {
+        "pays": "Gambie",
+        "continent": "Afrique",
+        "capitale": "Banjul",
+        "drapeau": ""
+    },
+    {
+        "pays": "Géorgie",
+        "continent": "Asie",
+        "capitale": "Tbilissi",
+        "drapeau": ""
+    },
+    {
+        "pays": "Ghana",
+        "continent": "Afrique",
+        "capitale": "Accra",
+        "drapeau": ""
+    },
+    {
+        "pays": "Grèce",
+        "continent": "Europe",
+        "capitale": "Athènes",
+        "drapeau": ""
+    },
+    {
+        "pays": "Grenade",
+        "continent": "Amérique",
+        "capitale": "Saint George's",
+        "drapeau": ""
+    },
+    {
+        "pays": "Guatemala",
+        "continent": "Amérique",
+        "capitale": "Guatemala",
+        "drapeau": ""
+    },
+    {
+        "pays": "Guinée",
+        "continent": "Afrique",
+        "capitale": "Conakry",
+        "drapeau": ""
+    },
+    {
+        "pays": "Guinée équatoriale",
+        "continent": "Afrique",
+        "capitale": "Malabo",
+        "drapeau": ""
+    },
+    {
+        "pays": "Guinée-Bissau",
+        "continent": "Afrique",
+        "capitale": "Bissau",
+        "drapeau": ""
+    },
+    {
+        "pays": "Guyana",
+        "continent": "Amérique",
+        "capitale": "Georgetown",
+        "drapeau": ""
+    },
+    {
+        "pays": "Haïti",
+        "continent": "Amérique",
+        "capitale": "Port-au-Prince",
+        "drapeau": ""
+    },
+    {
+        "pays": "Honduras",
+        "continent": "Amérique",
+        "capitale": "Tegucigalpa",
+        "drapeau": ""
+    },
+    {
+        "pays": "Hongrie",
+        "continent": "Europe",
+        "capitale": "Budapest",
+        "drapeau": ""
+    },
+    {
+        "pays": "Ile Maurice",
+        "continent": "Afrique",
+        "capitale": "Port Louis",
+        "drapeau": ""
+    },
+    {
+        "pays": "Inde",
+        "continent": "Asie",
+        "capitale": "New Delhi",
+        "drapeau": ""
+    },
+    {
+        "pays": "Indonésie",
+        "continent": "Asie",
+        "capitale": "Jakarta",
+        "drapeau": ""
+    },
+    {
+        "pays": "Irak",
+        "continent": "Asie",
+        "capitale": "Bagdad",
+        "drapeau": ""
+    },
+    {
+        "pays": "Iran",
+        "continent": "Asie",
+        "capitale": "Téhéran",
+        "drapeau": ""
+    },
+    {
+        "pays": "Irlande",
+        "continent": "Europe",
+        "capitale": "Dublin",
+        "drapeau": ""
+    },
+    {
+        "pays": "Irlande du Nord",
+        "continent": "Europe",
+        "capitale": "Belfast",
+        "drapeau": ""
+    },
+    {
+        "pays": "Islande",
+        "continent": "Europe",
+        "capitale": "Reykjavik",
+        "drapeau": ""
+    },
+    {
+        "pays": "Israël",
+        "continent": "Asie",
+        "capitale": "Jérusalem",
+        "drapeau": ""
+    },
+    {
+        "pays": "Italie",
+        "continent": "Europe",
+        "capitale": "Rome",
+        "drapeau": ""
+    },
+    {
+        "pays": "Jamaïque",
+        "continent": "Amérique",
+        "capitale": "Kingstom",
+        "drapeau": ""
+    },
+    {
+        "pays": "Japon",
+        "continent": "Asie",
+        "capitale": "Tokyo",
+        "drapeau": ""
+    },
+    {
+        "pays": "Jordanie",
+        "continent": "Asie",
+        "capitale": "Amman",
+        "drapeau": ""
+    },
+    {
+        "pays": "Kazakhstan",
+        "continent": "Asie",
+        "capitale": "Astana",
+        "drapeau": ""
+    },
+    {
+        "pays": "Kenya",
+        "continent": "Afrique",
+        "capitale": "Nairobi",
+        "drapeau": ""
+    },
+    {
+        "pays": "Kirghizistan",
+        "continent": "Asie",
+        "capitale": "Bichkek",
+        "drapeau": ""
+    },
+    {
+        "pays": "Kiribati",
+        "continent": "Océanie",
+        "capitale": "Tarawa",
+        "drapeau": ""
+    },
+    {
+        "pays": "Kosovo",
+        "continent": "Europe",
+        "capitale": "Pristina",
+        "drapeau": ""
+    },
+    {
+        "pays": "Koweït",
+        "continent": "Asie",
+        "capitale": "Koweït",
+        "drapeau": ""
+    },
+    {
+        "pays": "Laos",
+        "continent": "Asie",
+        "capitale": "Vientiane",
+        "drapeau": ""
+    },
+    {
+        "pays": "Lesotho",
+        "continent": "Afrique",
+        "capitale": "Maseru",
+        "drapeau": ""
+    },
+    {
+        "pays": "Lettonie",
+        "continent": "Europe",
+        "capitale": "Riga",
+        "drapeau": ""
+    },
+    {
+        "pays": "Liban",
+        "continent": "Asie",
+        "capitale": "Beyrouth",
+        "drapeau": ""
+    },
+    {
+        "pays": "Liberia",
+        "continent": "Afrique",
+        "capitale": "Monrovia",
+        "drapeau": ""
+    },
+    {
+        "pays": "Libye",
+        "continent": "Afrique",
+        "capitale": "Tripoli",
+        "drapeau": ""
+    },
+    {
+        "pays": "Liechtenstein",
+        "continent": "Europe",
+        "capitale": "Vaduz",
+        "drapeau": ""
+    },
+    {
+        "pays": "Lituanie",
+        "continent": "Europe",
+        "capitale": "Vilnius",
+        "drapeau": ""
+    },
+    {
+        "pays": "Luxembourg",
+        "continent": "Europe",
+        "capitale": "Luxembourg",
+        "drapeau": ""
+    },
+    {
+        "pays": "Macédoine du Nord",
+        "continent": "Europe",
+        "capitale": "Skopje",
+        "drapeau": ""
+    },
+    {
+        "pays": "Madagascar",
+        "continent": "Afrique",
+        "capitale": "Antananarivo",
+        "drapeau": ""
+    },
+    {
+        "pays": "Malaisie",
+        "continent": "Asie",
+        "capitale": "Kuala Lumpur",
+        "drapeau": ""
+    },
+    {
+        "pays": "Malawi",
+        "continent": "Lilongwe",
+        "capitale": "Afrique",
+        "drapeau": ""
+    },
+    {
+        "pays": "Maldives",
+        "continent": "Asie",
+        "capitale": "Malé",
+        "drapeau": ""
+    },
+    {
+        "pays": "Mali",
+        "continent": "Afrique",
+        "capitale": "Bamako",
+        "drapeau": ""
+    },
+    {
+        "pays": "Malte",
+        "continent": "Europe",
+        "capitale": "La Valette",
+        "drapeau": ""
+    },
+    {
+        "pays": "Maroc",
+        "continent": "Afrique",
+        "capitale": "Rabat",
+        "drapeau": ""
+    },
+    {
+        "pays": "Marshall",
+        "continent": "Océanie",
+        "capitale": "Majuro",
+        "drapeau": ""
+    },
+    {
+        "pays": "Mauritanie",
+        "continent": "Afrique",
+        "capitale": "Nouakchott",
+        "drapeau": ""
+    },
+    {
+        "pays": "Mexique",
+        "continent": "Amérique",
+        "capitale": "Mexico",
+        "drapeau": ""
+    },
+    {
+        "pays": "Micronésie",
+        "continent": "Océanie",
+        "capitale": "Palikir",
+        "drapeau": ""
+    },
+    {
+        "pays": "Moldavie",
+        "continent": "Europe",
+        "capitale": "Chisinau",
+        "drapeau": ""
+    },
+    {
+        "pays": "Monaco",
+        "continent": "Europe",
+        "capitale": "Monaco",
+        "drapeau": ""
+    },
+    {
+        "pays": "Mongolie",
+        "continent": "Asie",
+        "capitale": "Oulan-Bator",
+        "drapeau": ""
+    },
+    {
+        "pays": "Monténégro",
+        "continent": "Europe",
+        "capitale": "Podgorica",
+        "drapeau": ""
+    },
+    {
+        "pays": "Mozambique",
+        "continent": "Afrique",
+        "capitale": "Maputo",
+        "drapeau": ""
+    },
+    {
+        "pays": "Namibie",
+        "continent": "Afrique",
+        "capitale": "Windhoek",
+        "drapeau": ""
+    },
+    {
+        "pays": "Nauru",
+        "continent": "Océanie",
+        "capitale": "Yaren",
+        "drapeau": ""
+    },
+    {
+        "pays": "Népal",
+        "continent": "Asie",
+        "capitale": "Katmandou",
+        "drapeau": ""
+    },
+    {
+        "pays": "Nicaragua",
+        "continent": "Amérique",
+        "capitale": "Managua",
+        "drapeau": ""
+    },
+    {
+        "pays": "Niger",
+        "continent": "Afrique",
+        "capitale": "Niamey",
+        "drapeau": ""
+    },
+    {
+        "pays": "Norvège",
+        "continent": "Europe",
+        "capitale": "Oslo",
+        "drapeau": ""
+    },
+    {
+        "pays": "Nouvelle-Zélande",
+        "continent": "Océanie",
+        "capitale": "Wellington",
+        "drapeau": ""
+    },
+    {
+        "pays": "Oman",
+        "continent": "Asie",
+        "capitale": "Mascate",
+        "drapeau": ""
+    },
+    {
+        "pays": "Ouganda",
+        "continent": "Afrique",
+        "capitale": "Kampala",
+        "drapeau": ""
+    },
+    {
+        "pays": "Ouzbékistan",
+        "continent": "Asie",
+        "capitale": "Tachkent",
+        "drapeau": ""
+    },
+    {
+        "pays": "Pakistan",
+        "continent": "Asie",
+        "capitale": "Islamabad",
+        "drapeau": ""
+    },
+    {
+        "pays": "Palaos",
+        "continent": "Océanie",
+        "capitale": "Melekeok",
+        "drapeau": ""
+    },
+    {
+        "pays": "Palestine",
+        "continent": "Asie",
+        "capitale": "Jérusalem-Est",
+        "drapeau": ""
+    },
+    {
+        "pays": "Panama",
+        "continent": "Amérique",
+        "capitale": "Panama-City",
+        "drapeau": ""
+    },
+    {
+        "pays": "Papouasie-Nouvelle-Guinée",
+        "continent": "Océanie",
+        "capitale": "Port Moresby",
+        "drapeau": ""
+    },
+    {
+        "pays": "Paraguay",
+        "continent": "Amérique",
+        "capitale": "Asunción",
+        "drapeau": ""
+    },
+    {
+        "pays": "Pays-bas",
+        "continent": "Europe",
+        "capitale": "Amsterdam",
+        "drapeau": ""
+    },
+    {
+        "pays": "Pérou",
+        "continent": "Amérique",
+        "capitale": "Lima",
+        "drapeau": ""
+    },
+    {
+        "pays": "Philippines",
+        "continent": "Asie",
+        "capitale": "Manille",
+        "drapeau": ""
+    },
+    {
+        "pays": "Pologne",
+        "continent": "Europe",
+        "capitale": "Varsovie",
+        "drapeau": ""
+    },
+    {
+        "pays": "Portugal",
+        "continent": "Europe",
+        "capitale": "Lisbonne",
+        "drapeau": ""
+    },
+    {
+        "pays": "Qatar",
+        "continent": "Asie",
+        "capitale": "Doha",
+        "drapeau": ""
+    },
+    {
+        "pays": "République Centrafricaine",
+        "continent": "Afrique",
+        "capitale": "Bangui",
+        "drapeau": ""
+    },
+    {
+        "pays": "République Démocratique du Congo",
+        "continent": "Afrique",
+        "capitale": "Kinshasa",
+        "drapeau": ""
+    },
+    {
+        "pays": "République Dominicaine",
+        "continent": "Amérique",
+        "capitale": "Saint-Domingue",
+        "drapeau": ""
+    },
+    {
+        "pays": "République Tchèque",
+        "continent": "Europe",
+        "capitale": "Prague",
+        "drapeau": ""
+    },
+    {
+        "pays": "Roumanie",
+        "continent": "Europe",
+        "capitale": "Bucarest",
+        "drapeau": ""
+    },
+    {
+        "pays": "Angleterre",
+        "continent": "Europe",
+        "capitale": "Londres",
+        "drapeau": ""
+    },
+    {
+        "pays": "Pays de Galles",
+        "continent": "Europe",
+        "capitale": "Cardiff",
+        "drapeau": ""
+    },
+    {
+        "pays": "Ecosse",
+        "continent": "Europe",
+        "capitale": "Edimbourg",
+        "drapeau": ""
+    },
+    {
+        "pays": "Russie",
+        "continent": "Asie",
+        "capitale": "Moscou",
+        "drapeau": ""
+    },
+    {
+        "pays": "Rwanda",
+        "continent": "Afrique",
+        "capitale": "Kigali",
+        "drapeau": ""
+    },
+    {
+        "pays": "Saint-Kitts-et-Nevis",
+        "continent": "Amérique",
+        "capitale": "Basseterre",
+        "drapeau": ""
+    },
+    {
+        "pays": "Saint-Marin",
+        "continent": "Europe",
+        "capitale": "Saint-Marin",
+        "drapeau": ""
+    },
+    {
+        "pays": "Saint-Vincent-et-les-Grenadines",
+        "continent": "Amérique",
+        "capitale": "Kingstown",
+        "drapeau": ""
+    },
+    {
+        "pays": "Sainte-Lucie",
+        "continent": "Amérique",
+        "capitale": "Castries",
+        "drapeau": ""
+    },
+    {
+        "pays": "Salomon",
+        "continent": "Océanie",
+        "capitale": "Honiara",
+        "drapeau": ""
+    },
+    {
+        "pays": "Salvador",
+        "continent": "Amérique",
+        "capitale": "San Salvador",
+        "drapeau": ""
+    },
+    {
+        "pays": "Samoa",
+        "continent": "Océanie",
+        "capitale": "Apia",
+        "drapeau": ""
+    },
+    {
+        "pays": "São Tomé et Príncipe",
+        "continent": "Afrique",
+        "capitale": "São Tomé",
+        "drapeau": ""
+    },
+    {
+        "pays": "Sénégal",
+        "continent": "Afrique",
+        "capitale": "Dakar",
+        "drapeau": ""
+    },
+    {
+        "pays": "Serbie",
+        "continent": "Europe",
+        "capitale": "Belgrade",
+        "drapeau": ""
+    },
+    {
+        "pays": "Seychelles",
+        "continent": "Afrique",
+        "capitale": "Victoria",
+        "drapeau": ""
+    },
+    {
+        "pays": "Sierra Leone",
+        "continent": "Afrique",
+        "capitale": "Freetown",
+        "drapeau": ""
+    },
+    {
+        "pays": "Singapour",
+        "continent": "Asie",
+        "capitale": "Singapour",
+        "drapeau": ""
+    },
+    {
+        "pays": "Slovaquie",
+        "continent": "Europe",
+        "capitale": "Bratislava",
+        "drapeau": ""
+    },
+    {
+        "pays": "Slovénie",
+        "continent": "Europe",
+        "capitale": "Ljubljana",
+        "drapeau": ""
+    },
+    {
+        "pays": "Somalie",
+        "continent": "Afrique",
+        "capitale": "Mogadiscio",
+        "drapeau": ""
+    },
+    {
+        "pays": "Soudan",
+        "continent": "Afrique",
+        "capitale": "Khartoum",
+        "drapeau": ""
+    },
+    {
+        "pays": "Soudan du Sud",
+        "continent": "Afrique",
+        "capitale": "Djouba",
+        "drapeau": ""
+    },
+    {
+        "pays": "Sri Lanka",
+        "continent": "Asie",
+        "capitale": "Sri Jayawardenapura",
+        "drapeau": ""
+    },
+    {
+        "pays": "Suède",
+        "continent": "Europe",
+        "capitale": "Stockholm",
+        "drapeau": ""
+    },
+    {
+        "pays": "Suisse",
+        "continent": "Europe",
+        "capitale": "Berne",
+        "drapeau": ""
+    },
+    {
+        "pays": "Suriname",
+        "continent": "Amérique",
+        "capitale": "Paramaribo",
+        "drapeau": ""
+    },
+    {
+        "pays": "Syrie",
+        "continent": "Asie",
+        "capitale": "Damas",
+        "drapeau": ""
+    },
+    {
+        "pays": "Tadjikistan",
+        "continent": "Asie",
+        "capitale": "Douchanbe",
+        "drapeau": ""
+    },
+    {
+        "pays": "Taïwan",
+        "continent": "Asie",
+        "capitale": "Taipei",
+        "drapeau": ""
+    },
+    {
+        "pays": "Tanzanie",
+        "continent": "Afrique",
+        "capitale": "Dodoma",
+        "drapeau": ""
+    },
+    {
+        "pays": "Tchad",
+        "continent": "Afrique",
+        "capitale": "N'Djamena",
+        "drapeau": ""
+    },
+    {
+        "pays": "Thaïlande",
+        "continent": "Asie",
+        "capitale": "Bangkok",
+        "drapeau": ""
+    },
+    {
+        "pays": "Timor-Oriental",
+        "continent": "Océanie",
+        "capitale": "Dili",
+        "drapeau": ""
+    },
+    {
+        "pays": "Togo",
+        "continent": "Afrique",
+        "capitale": "Lomé",
+        "drapeau": ""
+    },
+    {
+        "pays": "Tonga",
+        "continent": "Océanie",
+        "capitale": "Nukuafola",
+        "drapeau": ""
+    },
+    {
+        "pays": "Trinité-et-Tobago",
+        "continent": "Amérique",
+        "capitale": "Port d'Espagne",
+        "drapeau": ""
+    },
+    {
+        "pays": "Tunisie",
+        "continent": "Afrique",
+        "capitale": "Tunis",
+        "drapeau": ""
+    },
+    {
+        "pays": "Turkménistan",
+        "continent": "Asie",
+        "capitale": "Achgabat",
+        "drapeau": ""
+    },
+    {
+        "pays": "Turquie",
+        "continent": "Asie",
+        "capitale": "Ankara",
+        "drapeau": ""
+    },
+    {
+        "pays": "Tuvalu",
+        "continent": "Océanie",
+        "capitale": "Funafuti",
+        "drapeau": ""
+    },
+    {
+        "pays": "Ukraine",
+        "continent": "Europe",
+        "capitale": "Kiev",
+        "drapeau": ""
+    },
+    {
+        "pays": "Uruguay",
+        "continent": "Amérique",
+        "capitale": "Montevideo",
+        "drapeau": ""
+    },
+    {
+        "pays": "Vanuatu",
+        "continent": "Océanie",
+        "capitale": "Port-Vila",
+        "drapeau": ""
+    },
+    {
+        "pays": "Vatican",
+        "continent": "Europe",
+        "capitale": "Cité du Vatican",
+        "drapeau": ""
+    },
+    {
+        "pays": "Venezuela",
+        "continent": "Amérique",
+        "capitale": "Caracas",
+        "drapeau": ""
+    },
+    {
+        "pays": "Viêt Nam",
+        "continent": "Asie",
+        "capitale": "Hanoi",
+        "drapeau": ""
+    },
+    {
+        "pays": "Yémen",
+        "continent": "Asie",
+        "capitale": "Sanaa",
+        "drapeau": ""
+    },
+    {
+        "pays": "Zambie",
+        "continent": "Afrique",
+        "capitale": "Lusaka",
+        "drapeau": ""
+    },
+    {
+        "pays": "Zimbabwe",
+        "continent": "Afrique",
+        "capitale": "Harare",
+        "drapeau": ""
+    },
+]
