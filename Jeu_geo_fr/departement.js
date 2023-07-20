@@ -1,35 +1,29 @@
+    // Cette fonction permet de charger les départements depuis le fichier JSON
 async function chargerDepartements(){
     try {
         // Récupération des départements depuis le fichier JSON
     const reponse = await fetch("departements.json");
     const depjson = await reponse.json();
-
     
     } catch(error){
         console.error("Une erreur s'est produite lors du chargement du fichier JSON :", error);
     }
 }
-
-async function init() {
-
-    await chargerDepartements();
-    
-    //masquage de l'onglet de nav et affichage de la range
-
+    // Récupération des éléments du DOM
+    const container = document.querySelector(".container");
     const boutonNumero = document.getElementById("nav_numero");
     const boutonLocalisation = document.getElementById("nav_localisation");
     const choixDepartement = document.querySelector(".choix_departement");
     const ongletNav = document.getElementById("onglet_nav_dep");
-    const container = document.querySelector(".container");
-    let choix = "";
 
+    //création de la variable chix (entre loc et num)
+    let choix = "";
 
     boutonNumero.addEventListener("click", ()=>{
         ongletNav.classList.add("disable");
         choixDepartement.classList.add("disable");
         container.classList.remove("disable");
         choix = "numero";
-        console.log("Bouton num cliqué");
     });
 
     boutonLocalisation.addEventListener("click", ()=>{
@@ -37,27 +31,71 @@ async function init() {
         choixDepartement.classList.add("disable");
         container.classList.remove("disable");
         choix = "localisation";
-        console.log("Bouton loc cliqué");
     });
+    
 
+    //fonction qui va générer un nb aléatoire parmi tous les départements fr
+
+    function genererAlea(){
+        return Math.floor(Math.random() * (101)) + 1;
+    } 
+
+    // Fonction qui vérifie si le nombre généré n'existe pas déjà dans le tableau de stockage
+
+    function verifierAbs(nbAlea,index,tab_stockage){
+        let condition = true;
+        for (let i = 0; i <= index; i++) {
+            if (nbAlea == tab_stockage[i]) {
+                condition = false;
+            };
+        }
+        return condition;
+    }
+
+    // Fonction qui génère le tableau contenant les indices aléatoires des départements à deviner
+
+    function genererTabJeu(nbUser){
+        let tab_stockage = [];
+        for (let i = 0; i < nbUser; i++) {
+            let condition = false;
+            let index = i;
+            let nbAlea = 0;
+            while (condition == false) {
+                nbAlea = genererAlea();
+                condition = verifierAbs(nbAlea,index,tab_stockage);
+            }
+            tab_stockage[i] = nbAlea; 
+        }
+        return tab_stockage;
+    }
+
+// Fonction d'initialisation
+async function init() {
+    // Attendre que les départements soient chargés avant de continuer
+    await chargerDepartements();
+    
     //affichage du nombre de départements dans l'input range
-
+    
     const curseur = document.getElementById("range_dep");
     const valeurCurseur = document.getElementById("valeur_curseur");
-
+    
     curseur.addEventListener("input", ()=>{
         valeurCurseur.textContent = curseur.value + " ";
     });
 
-    //masquage de la range
+// Masquage de la range lorsque l'utilisateur clique sur "Valider"
 
-    const boutonValider = document.getElementById("valider");
+const boutonValider = document.getElementById("valider");
+boutonValider.addEventListener("click", ()=>{
+    container.classList.add("disable");
 
-    boutonValider.addEventListener("click", ()=>{
-        container.classList.add("disable");
-    });
-  }
-  
+    // Génération du tableau et affichage dans la console
+    const nbDepUser = curseur.value;
+    let test = genererTabJeu(nbDepUser);
+    console.log(test);
+});
+}
+
 init();
   
 

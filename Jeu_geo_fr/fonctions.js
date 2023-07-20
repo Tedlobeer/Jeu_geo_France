@@ -1,5 +1,5 @@
 // Cette fonction permet de charger les départements depuis le fichier JSON
-async function chargerDepartements(){
+export async function chargerDepartements(){
     try {
         // Récupération des départements depuis le fichier JSON
     const reponse = await fetch("departements.json");
@@ -9,20 +9,25 @@ async function chargerDepartements(){
         console.error("Une erreur s'est produite lors du chargement du fichier JSON :", error);
     }
 }
-    // Récupération des éléments du DOM
-    const container = document.querySelector(".container");
+    // Récupération des éléments du DOM departement.html
+    export function recupererDOMdep(){
+        const boutonNumero = document.getElementById("nav_numero");
+        const boutonLocalisation = document.getElementById("nav_localisation");
+        const choixDepartement = document.querySelector(".choix_departement");
+    }
 
+    // Récupération des éléments de tous les DOM
+    export function recupererContainer(){
+        const container = document.querySelector(".container");
+    }
     
-
     //fonction qui va générer un nb aléatoire parmi tous les départements fr
-
-    function genererAlea(){
+    export function genererAlea(){
         return Math.floor(Math.random() * (101)) + 1;
     } 
 
     // Fonction qui vérifie si le nombre généré n'existe pas déjà dans le tableau de stockage
-
-    function verifierAbs(nbAlea,index,tab_stockage){
+    export function verifierAbs(nbAlea,index,tab_stockage){
         let condition = true;
         for (let i = 0; i <= index; i++) {
             if (nbAlea == tab_stockage[i]) {
@@ -33,8 +38,7 @@ async function chargerDepartements(){
     }
 
     // Fonction qui génère le tableau contenant les indices aléatoires des départements à deviner
-
-    function genererTabJeu(nbUser){
+    export function genererTabJeu(nbUser){
         let tab_stockage = [];
         for (let i = 0; i < nbUser; i++) {
             let condition = false;
@@ -50,7 +54,7 @@ async function chargerDepartements(){
     }
 
 // Fonction d'initialisation
-async function init() {
+export async function init() {
     // Attendre que les départements soient chargés avant de continuer
     await chargerDepartements();
     
@@ -63,17 +67,17 @@ async function init() {
         valeurCurseur.textContent = curseur.value + " ";
     });
 
-// Masquage de la range lorsque l'utilisateur clique sur "Valider"
+    // Masquage de la range lorsque l'utilisateur clique sur "Valider"
 
-const boutonValider = document.getElementById("valider");
-boutonValider.addEventListener("click", ()=>{
-    container.classList.add("disable");
+    const boutonValider = document.getElementById("valider");
+    boutonValider.addEventListener("click", ()=>{
+        container.classList.add("disable");
 
-    // Génération du tableau et affichage dans la console
-    const nbDepUser = curseur.value;
-    let test = genererTabJeu(nbDepUser);
-    console.log(test);
-});
+        // Génération du tableau et affichage dans la console
+        const nbDepUser = curseur.value;
+        let test = genererTabJeu(nbDepUser);
+        console.log(test);
+    });
 }
 
 init();
