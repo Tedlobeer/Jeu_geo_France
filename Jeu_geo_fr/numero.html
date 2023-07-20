@@ -9,10 +9,16 @@
     <script src="numero.js" defer></script>
   </head>
   <body>
-    <p class="nombreDeQuestions">Combien voulez-vous en deviner ?</p>
-    <input type="range" id="range_dep" name="dep" min="0" max="101" value="10" step="1"><span id="valeur_curseur">10 </span><label for="dep">départements</label>
+    <div class="container">
+      <p class="nombreDeQuestions">Combien voulez-vous en deviner ?</p>
+      <input type="range" id="range_dep" name="dep" min="0" max="101" value="10" step="1"><span id="valeur_curseur">10 </span><label for="dep">départements</label>
+      <br>
+      <button id="valider">Valider</button>    
+    </div>
+    <p id="affichage_question"></p>
+    <input type="text" id="reponse_utilisateur" class="disable">
     <br>
-    <button id="valider">Valider</button>    
+    <button id="validation_reponse" class="disable">Valider</button>
     <script src="numero.js"></script>
   </body>
 </html>

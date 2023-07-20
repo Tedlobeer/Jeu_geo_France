@@ -10,13 +10,19 @@
   </head>
   <body>
     <p class="choix_departement">A l'aide de quoi voulez-vous le deviner ?</p>
-    <ul id="onglet_nav_dep" class="nav flex-column enable">
-      <li id="nav_numero" class="nav-item">
-        <a class="nav-link" aria-current="page" href="dep_num.html">Numéro</a>
+    <ul id="onglet_nav_dep" class="nav flex-column">
+      <li class="nav-item">
+        <button id="nav_numero" class="nav-link" >Numéro</button>
       </li>
-      <li id="nav_localisation" class="nav-item">
-        <a class="nav-link" href="dep_loc.html">Localisation</a>
+      <li class="nav-item">
+        <button id="nav_localisation" class="nav-link">Localisation</button>
       </li>
     </ul>
+    <div class="container disable">
+      <p class="nombreDeQuestions">Combien voulez-vous en deviner ?</p>
+      <input type="range" id="range_dep" name="dep" min="0" max="101" value="10" step="1"><span id="valeur_curseur">10 </span><label for="dep">départements</label>
+      <br>
+      <button id="valider">Valider</button> 
+    </div>
   </body>
 </html>
