@@ -3,7 +3,7 @@
         "pays": "Afghanistan",
         "continent": "Asie",
         "capitale": "Kaboul",
-        "drapeau": ""
+        "drapeau": "drapeaux/"
     },
     {
         "pays": "Afrique du Sud",
@@ -759,6 +759,12 @@
         "pays": "Niger",
         "continent": "Afrique",
         "capitale": "Niamey",
+        "drapeau": ""
+    },
+    {
+        "pays": "Nigeria",
+        "continent": "Afrique",
+        "capitale": "Abuja",
         "drapeau": ""
     },
     {
