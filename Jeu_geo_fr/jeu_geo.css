@@ -9,7 +9,7 @@ h1 {
 }
 
 .disable {
-    display: none;
+    display: none !important;
 }
 
 .enable {
@@ -48,4 +48,12 @@ h1 {
     width: 30%;
     text-align: center;
     margin: 0 1% 0 35%;
+}
+
+#container_questions, #resultat {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20% 40% 0 40%;
 }
