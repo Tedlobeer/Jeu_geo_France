@@ -50,10 +50,36 @@ h1 {
     margin: 0 1% 0 35%;
 }
 
-#container_questions, #resultat {
+#resultat {
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
     margin: 20% 40% 0 40%;
+}
+
+.container_questions {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20% 40% 0 40%;
+}
+
+#container_carte {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.container_questions_loc {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    margin: 0 5% 10% 5%;
+}
+
+.big_container_loc {
+    display: flex;
 }

@@ -152,7 +152,15 @@ chargerDepartements().then(() => {
             }
         break;
         case "localisation":
-            
+            const bigContainerLoc = document.getElementById("big_container_loc");
+            containerQuestions.classList.remove("container_questions");
+            containerQuestions.classList.add("container_questions_loc");
+            const containerMap = document.getElementById("container_carte");
+            containerMap.classList.remove("disable");
+            bigContainerLoc.classList.add("big_container_loc");
+            function afficherQuestion(index) {
+
+            }
         break;
     }
   
@@ -191,7 +199,7 @@ chargerDepartements().then(() => {
   }
 
     //appel de la fonction choix
-    choixType();
+    choixType(); 
 
     //appel de la fonction de préparation du quizz
     preLaunch();
