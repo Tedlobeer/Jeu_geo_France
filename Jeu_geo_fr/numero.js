@@ -80,8 +80,8 @@ chargerDepartements().then(() => {
         });
     }
   
-// Fonction principale du quizz
-function launchQuizz(tab_index, depjson) {
+  // Fonction principale du quizz
+  function launchQuizz(tab_index, depjson) {
     let score = 0;
     let currentQuestionIndex = 0;
     const baliseQuestions = document.getElementById("affichage_questions");
@@ -118,13 +118,21 @@ function launchQuizz(tab_index, depjson) {
   // Fonction d'affichage du score
   function afficherScore(score, tab_index) {
     const containerQuestions = document.getElementById("container_questions");
+    const boutonRejouer = document.getElementById("rejouer");
+
     containerQuestions.classList.add("disable");
     let pourcentage = (score / tab_index.length) * 100;
-    let div = `<div id="resultat"><p>Votre score est de ${pourcentage.toFixed(0)}% !</p></div>`;
+    let div = `<div id="resultat">
+                  <p>Votre score est de ${pourcentage.toFixed(0)}% !</p>
+                  <div id="endgame">
+                    <button><a href="numero.html">Rejouer</a></button>
+                    <button><a href="index.html">Menu principal</a></button>
+                  </div>
+               </div>`;
     let body = document.querySelector("body");
     body.innerHTML = div;
   }
-  
+
     //appel de la fonction de préparation du quizz
     preLaunch();
     
