@@ -83,3 +83,18 @@ h1 {
 .big_container_loc {
     display: flex;
 }
+
+path {
+    fill: darkcyan;
+    stroke: white;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+path:hover {
+    fill:springgreen;
+}
+
+.grossir {
+    font-size: 3em;
+}

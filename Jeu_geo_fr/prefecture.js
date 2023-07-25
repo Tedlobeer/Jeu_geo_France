@@ -125,7 +125,7 @@ chargerDepartements().then(() => {
     let div = `<div id="resultat">
                   <p>Votre score est de ${pourcentage.toFixed(0)}% !</p>
                   <div id="endgame">
-                    <button><a href="numero.html">Rejouer</a></button>
+                    <button><a href="prefecture.html">Rejouer</a></button>
                     <button><a href="index.html">Menu principal</a></button>
                   </div>
                </div>`;

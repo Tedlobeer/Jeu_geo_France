@@ -73,7 +73,7 @@ chargerDepartements().then(() => {
             container.classList.add("disable");
             containerQuestions.classList.remove("disable");
             const nbDepUser = curseur.value;
-            tab_index = genererTabJeu(nbDepUser);
+            let tab_index = genererTabJeu(nbDepUser);
 
             //appel de la fonction principale du quizz
             launchQuizz(tab_index,depjson);

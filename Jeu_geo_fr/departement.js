@@ -30,29 +30,29 @@ chargerDepartements().then(() => {
         const boutonLocalisation = document.getElementById("nav_localisation");
 
         boutonNumero.addEventListener("click", ()=>{
-            console.log("Bouton 'num' cliqué");
             ongletNav.classList.add("disable");
             choixDepartement.classList.add("disable");
             container.classList.remove("disable");
             choix = "numero";
+            console.log("num cliqué");
         });
 
         boutonPrefecture.addEventListener("click", ()=>{
-            console.log("Bouton 'pref' cliqué");
             ongletNav.classList.add("disable");
             choixDepartement.classList.add("disable");
             container.classList.remove("disable");
             choix = "prefecture";
+            console.log("pref cliqué");
         });
 
         boutonLocalisation.addEventListener("click", ()=>{
-            console.log("Bouton 'localisation' cliqué");
             ongletNav.classList.add("disable");
             choixDepartement.classList.add("disable");
             container.classList.remove("disable");
             choix = "localisation";
         });
         return choix;
+        console.log(choix);
     }
  
   //fonction qui va générer un nb aléatoire parmi tous les départements fr
@@ -110,75 +110,88 @@ chargerDepartements().then(() => {
             container.classList.add("disable");
             containerQuestions.classList.remove("disable");
             const nbDepUser = curseur.value;
-            tab_index = genererTabJeu(nbDepUser);
+            let tab_index = genererTabJeu(nbDepUser);
 
             //appel de la fonction principale du quizz
-            console.log("Choix: ", choixType());
             launchQuizz(tab_index,depjson);
         });
     }
   
-  // Fonction principale du quizz
-  function launchQuizz(tab_index, depjson) {
-    let score = 0;
-    let currentQuestionIndex = 0;
-    const baliseQuestions = document.getElementById("affichage_questions");
-    const boutonValidation = document.getElementById("validation_reponse");
-    const champInput = document.getElementById("reponse_utilisateur");
-    const containerQuestions = document.getElementById("container_questions");
-    
-    switch(choix){
+    // Fonction principale du quizz
+    function launchQuizz(tab_index, depjson) {
+        
+        let currentQuestionIndex = 0;
+        const boutonValidation = document.getElementById("validation_reponse");
+        const baliseQuestions = document.getElementById("affichage_questions");
+        const champInput = document.getElementById("reponse_utilisateur");
+        const containerQuestions = document.getElementById("container_questions");
+        let score = 0;
 
-        case "numero":
-            function afficherQuestion(index) {
-                if (index < tab_index.length) {
-                    baliseQuestions.textContent = depjson[tab_index[index]].numero;
-                    champInput.value = ""; // Réinitialiser le champ de saisie
-                } else {
-                    // Toutes les questions ont été répondues, afficher le score
-                    afficherScore(score, tab_index);
-                }
-            }
-        break;
-        case "prefecture":
-            function afficherQuestion(index) {
-                if (index < tab_index.length) {
-                    baliseQuestions.textContent = depjson[tab_index[index]].prefecture;
-                    champInput.value = ""; // Réinitialiser le champ de saisie
-                } else {
-                    // Toutes les questions ont été répondues, afficher le score
-                    afficherScore(score, tab_index);
-                }
-            }
-        break;
-        case "localisation":
-            const bigContainerLoc = document.getElementById("big_container_loc");
-            containerQuestions.classList.remove("container_questions");
-            containerQuestions.classList.add("container_questions_loc");
-            const containerMap = document.getElementById("container_carte");
-            containerMap.classList.remove("disable");
-            bigContainerLoc.classList.add("big_container_loc");
-            function afficherQuestion(index) {
+        function afficherQuestion(index) {
+            if (index < tab_index.length) {
+                switch(choix){
+                    case "numero":
+                                baliseQuestions.textContent = depjson[tab_index[index]].numero;
+                    break;
+                    case "prefecture":
+                                baliseQuestions.textContent = depjson[tab_index[index]].prefecture;
+                    break;
+                    /*case "localisation":
+                        const bigContainerLoc = document.getElementById("big_container_loc");
+                        containerQuestions.classList.remove("container_questions");
+                        containerQuestions.classList.add("container_questions_loc");
+                        const containerMap = document.getElementById("container_carte");
+                        containerMap.classList.remove("disable");
+                        bigContainerLoc.classList.add("big_container_loc");
+                        const svgMap = document.querySelector("svg");
+                        const nombreQuestions = tab_index.length;
+                        let score = 0;
+                        let currentQuestionIndex = 0;
 
+                        function afficherQuestion(index) {
+                            if (index < nombreQuestions) {
+                                const departementEnCours = depjson[tab_index[index]];
+                                baliseQuestions.textContent = departementEnCours.departement;
+                                // Ajouter un événement click pour gérer la sélection d'un département sur la carte
+                                svgMap.querySelectorAll("path").forEach((path) => {
+                                    path.addEventListener("click", () => {
+                                        const departementSelectionne = path.getAttribute("title");
+                                        if (departementSelectionne === departementEnCours.departement) {
+                                            score++;
+                                        }
+                                            currentQuestionIndex++;
+                                            afficherQuestion(currentQuestionIndex);
+                                    });
+                                });
+                            } else {
+                                // Toutes les questions ont été répondues, afficher le score
+                                afficherScore(score, tab_index);
+                            }
+                        }
+
+                        afficherQuestion(currentQuestionIndex); 
+                    break;*/
+                }
+                champInput.value = ""; // Réinitialiser le champ de saisie
+            } else {
+                // Toutes les questions ont été répondues, afficher le score
+                afficherScore(score, tab_index);
             }
-        break;
+        }
+
+        function verifierReponse() {
+        if (champInput.value === depjson[tab_index[currentQuestionIndex]].departement) {
+            score++;
+        }
+        currentQuestionIndex++;
+        afficherQuestion(currentQuestionIndex); // Afficher la question suivante
+        }
+        // Attacher l'événement click au bouton de validation
+        boutonValidation.addEventListener("click", verifierReponse);
+
+        // Afficher la première question
+        afficherQuestion(currentQuestionIndex);
     }
-  
-    function verifierReponse() {
-      if (champInput.value === depjson[tab_index[currentQuestionIndex]].departement) {
-        score++;
-      }
-  
-      currentQuestionIndex++;
-      afficherQuestion(currentQuestionIndex); // Afficher la question suivante
-    }
-  
-    // Attacher l'événement click au bouton de validation
-    boutonValidation.addEventListener("click", verifierReponse);
-  
-    // Afficher la première question
-    afficherQuestion(currentQuestionIndex);
-  }
   
   // Fonction d'affichage du score
   function afficherScore(score, tab_index) {
@@ -190,7 +203,7 @@ chargerDepartements().then(() => {
     let div = `<div id="resultat">
                   <p>Votre score est de ${pourcentage.toFixed(0)}% !</p>
                   <div id="endgame">
-                    <button><a href="numero.html">Rejouer</a></button>
+                    <button><a href="departement.html">Rejouer</a></button>
                     <button><a href="index.html">Menu principal</a></button>
                   </div>
                </div>`;
@@ -199,7 +212,8 @@ chargerDepartements().then(() => {
   }
 
     //appel de la fonction choix
-    choixType(); 
+    choix = choixType(); 
+    console.log("le choix est " + choix);
 
     //appel de la fonction de préparation du quizz
     preLaunch();
