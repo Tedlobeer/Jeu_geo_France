@@ -66,21 +66,7 @@ h1 {
     margin: 20% 40% 0 40%;
 }
 
-#container_carte {
-    width: 70%;
-    margin-left: 5%;
-}
-
-.container_questions_loc {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 15%;
-    margin: 0 5% 10% 5%;
-}
-
-.big_container_loc {
+#big_container_loc {
     display: flex;
 }
 
@@ -98,3 +84,32 @@ path:hover {
 .grossir {
     font-size: 3em;
 }
+
+.style_choix {
+    color: #0d6efd;
+}
+
+.departement_surbrillance {
+    fill: rgb(255, 0, 230);
+    stroke: black;
+    stroke-width: 1;
+  }
+
+#container_carte {
+    width: 80%;
+    margin: 5% auto; /* Utilisez "auto" pour centrer horizontalement */
+  }
+  
+#resultat, .container_questions, .container_questions_loc {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% auto; /* Utilisez "auto" pour centrer horizontalement */
+    width: 60%; /* Ajustez la largeur en fonction de vos besoins */
+  }
+
+  .disable_hover path:hover {
+    fill: darkcyan; /* Remettre la couleur normale pour éviter le changement de couleur au hover */
+    cursor: default; /* Désactiver le curseur pointer */
+  }

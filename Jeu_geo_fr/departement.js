@@ -60,8 +60,24 @@ chargerDepartements().then(() => {
         return Math.floor(Math.random() * (100)) + 1;
     } 
 
+    //fonction qui va générer un nb aléatoire parmi tous les départements fr POUR LA CARTE
+    function genererAleaCarte(){
+        return Math.floor(Math.random() * (95)) + 1;
+    } 
+
     // Fonction qui vérifie si le nombre généré n'existe pas déjà dans le tableau de stockage
     function verifierAbs(nbAlea,index,tab_stockage){
+        let condition = true;
+        for (let i = 0; i <= index; i++) {
+            if (nbAlea == tab_stockage[i]) {
+                condition = false;
+            };
+        }
+        return condition;
+    }
+
+    // Fonction qui vérifie si le nombre généré n'existe pas déjà dans le tableau de stockage POUR LA CARTE
+    function verifierAbsCarte(nbAlea,index,tab_stockage){
         let condition = true;
         for (let i = 0; i <= index; i++) {
             if (nbAlea == tab_stockage[i]) {
@@ -81,6 +97,22 @@ chargerDepartements().then(() => {
             while (condition == false) {                
                 nbAlea = genererAlea();
                 condition = verifierAbs(nbAlea,index,tab_stockage);
+            }
+            tab_stockage[i] = nbAlea; 
+        }
+        return tab_stockage;
+    }
+
+    // Fonction qui génère le tableau contenant les indices aléatoires des départements à deviner POUR LA CARTE
+    function genererTabJeuCarte(nbUser){
+        let tab_stockage = [];
+        for (let i = 0; i < nbUser; i++) {
+            let condition = false;
+            let index = i;
+            let nbAlea = 0;
+            while (condition == false) {                
+                nbAlea = genererAleaCarte();
+                condition = verifierAbsCarte(nbAlea,index,tab_stockage);
             }
             tab_stockage[i] = nbAlea; 
         }
@@ -126,51 +158,33 @@ chargerDepartements().then(() => {
         const champInput = document.getElementById("reponse_utilisateur");
         const containerQuestions = document.getElementById("container_questions");
         let score = 0;
+        const para_tab_index = tab_index;
 
         function afficherQuestion(index) {
             if (index < tab_index.length) {
                 switch(choix){
                     case "numero":
-                                baliseQuestions.textContent = depjson[tab_index[index]].numero;
+                        baliseQuestions.textContent = depjson[tab_index[index]].numero;
                     break;
                     case "prefecture":
-                                baliseQuestions.textContent = depjson[tab_index[index]].prefecture;
+                        baliseQuestions.textContent = depjson[tab_index[index]].prefecture;
                     break;
-                    /*case "localisation":
-                        const bigContainerLoc = document.getElementById("big_container_loc");
-                        containerQuestions.classList.remove("container_questions");
-                        containerQuestions.classList.add("container_questions_loc");
-                        const containerMap = document.getElementById("container_carte");
-                        containerMap.classList.remove("disable");
-                        bigContainerLoc.classList.add("big_container_loc");
-                        const svgMap = document.querySelector("svg");
-                        const nombreQuestions = tab_index.length;
-                        let score = 0;
-                        let currentQuestionIndex = 0;
+                    case "localisation":
+                        const containerCarte = document.getElementById("container_carte");
+                        containerCarte.classList.remove("disable"); 
+                        const idDepartementDevine = `FR-${depjson[tab_index[index]].numero}`;// Récupérer l'ID du département à deviner
 
-                        function afficherQuestion(index) {
-                            if (index < nombreQuestions) {
-                                const departementEnCours = depjson[tab_index[index]];
-                                baliseQuestions.textContent = departementEnCours.departement;
-                                // Ajouter un événement click pour gérer la sélection d'un département sur la carte
-                                svgMap.querySelectorAll("path").forEach((path) => {
-                                    path.addEventListener("click", () => {
-                                        const departementSelectionne = path.getAttribute("title");
-                                        if (departementSelectionne === departementEnCours.departement) {
-                                            score++;
-                                        }
-                                            currentQuestionIndex++;
-                                            afficherQuestion(currentQuestionIndex);
-                                    });
-                                });
-                            } else {
-                                // Toutes les questions ont été répondues, afficher le score
-                                afficherScore(score, tab_index);
-                            }
-                        }
+                        // Réinitialiser les styles de tous les départements sur la carte
+                        const paths = document.querySelectorAll('path');
+                        paths.forEach((path) => {
+                          path.classList.remove('departement_surbrillance');
+                        });
+                    
+                        // Mettre en surbrillance le département à deviner
+                        const departementADeviner = document.getElementById(idDepartementDevine);
+                        departementADeviner.classList.add('departement_surbrillance');
 
-                        afficherQuestion(currentQuestionIndex); 
-                    break;*/
+                    break;
                 }
                 champInput.value = ""; // Réinitialiser le champ de saisie
             } else {
